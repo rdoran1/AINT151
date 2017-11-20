@@ -1,0 +1,46 @@
+#menu {
+  list-style-type:none;
+  width: 400px;
+  padding: 0;
+}
+
+#menu > li {
+  float: left;
+  display: inline;
+  position: relative;
+  background-color: lightgrey;
+}
+
+#menu > li > a {
+  display: block;
+  padding: 10px;
+  color: black;
+}
+
+#menu > li > a:hover {
+  color: white;
+  background-color: grey;
+}
+
+#menu > li > ul{
+  display: none;
+  clear: both;
+  position: absolute;
+  list-style-type: none;
+  padding: 1px;
+  background-color: lightgray;
+}
+
+#menu > li > ul > li > a {
+    color: black;
+}
+
+#menu > li > ul > li > a:hover {
+  color: white;
+  background-color: grey;
+}
+
+#menu > li:hover > ul {
+  position: absolute;
+  display: block;
+}

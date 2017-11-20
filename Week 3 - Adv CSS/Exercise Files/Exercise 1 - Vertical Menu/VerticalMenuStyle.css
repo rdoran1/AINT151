@@ -1,0 +1,20 @@
+#menu {
+  width: 100px;
+  list-style-type:none;
+  display: inline-block;
+}
+li{
+  padding: 1px;
+  margin: 1px;
+  background-color: darkgray;
+}
+a {
+  color: black;
+}
+li:hover{
+  margin: 1px;
+  background-color: gray;
+}
+a:hover {
+  color: white;
+}

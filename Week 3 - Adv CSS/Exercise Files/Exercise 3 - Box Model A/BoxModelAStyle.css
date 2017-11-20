@@ -1,0 +1,33 @@
+#container {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+#header {
+  margin-bottom: 10px;
+  height: 70px;
+  width: 900px;
+  background-color: lightgrey;
+}
+#leftmenu {
+  float: left;
+  margin-right: 10px;
+  background-color: lightgrey;
+  height: 500px;
+  width: 295px;
+}
+#maincontent {
+  float: left;
+  height: 500px;
+  width: 595px;
+  background-color: lightgrey;
+}
+div.clear {
+  clear: both;
+}
+#footer {
+margin-top: 10px;
+background-color: lightgrey;
+height: 30px;
+width: 900px;
+}

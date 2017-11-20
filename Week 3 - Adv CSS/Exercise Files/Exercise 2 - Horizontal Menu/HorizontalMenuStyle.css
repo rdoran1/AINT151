@@ -1,0 +1,23 @@
+#menu {
+  list-style-type: none;
+  margin: 1px;
+  height: 10px;
+  width:300px;
+  padding: 0;
+}
+li {
+  float: left;
+  margin: 1px;
+  background-color: lightgrey;
+}
+a {
+  display: block;
+  color: black;
+  padding: 10px;
+}
+li:hover {
+  background-color: gray;
+}
+a:hover {
+  color: white;
+}
