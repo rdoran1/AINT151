@@ -1,0 +1,42 @@
+body{
+  background: url("Parchment_Background.png") no-repeat center 1px;
+  background-size: cover;
+  background-color: #f2d6ac;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+#roomTitle {
+  position: relative;
+  font-size: 40px;
+  padding-left: 15%;
+  margin-top: 4%;
+  color: #000F55;
+  text-decoration: underline;
+}
+#roomChoices {
+  padding-left: 15%;
+}
+button{
+  position: relative;
+  background-color: #d5a761;
+  border-radius: 9px;
+  border: 5px;
+  border-style:outset;
+  font-size: 20px;
+  color: #000F55;
+  border-color: #e3d3ba;
+  transition: all 1s;
+  margin: 5px;
+}
+button:hover{
+  background-color: #baa17a;
+}
+#roomText {
+  position: relative;
+  font-size: 30px;
+  color: #000F55;
+  padding-left: 15%;
+  padding-right: 15%;
+}
